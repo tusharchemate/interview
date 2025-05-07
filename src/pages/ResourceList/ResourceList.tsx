@@ -1,7 +1,7 @@
 import { Button, Input, Table, Group, Stack } from "@mantine/core";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import './ResourceList.scss';
+import './resourceList.scss';
 import usePokemonList, { PokemonSummary } from "../../hooks/usePokemonList";
 
 const ITEMS_PER_PAGE = 10;

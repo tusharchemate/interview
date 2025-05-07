@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import Login from '../login/Login';
+import Login from '../login/login';
 
 const Landing: FC = () => {
     return <Login />;

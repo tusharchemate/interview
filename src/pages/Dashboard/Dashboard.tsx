@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useAppStore } from "../../store/app.store";
-import './Dashboard.scss'; // Import the SCSS file
+import './dashboard.scss';
 
 const Dashboard = () => {
     const { isAuthenticated, username, logout } = useAppStore((state) => ({
