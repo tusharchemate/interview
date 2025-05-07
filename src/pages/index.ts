@@ -1,5 +1,4 @@
 export { default as Landing } from "./landing/Landing";
-import Login from "./login/Login";
 export { default as Dashboard } from "./dashboard/Dashboard";
 export { default as ResourceList } from "./resourceList/ResourceList";
 export { default as ResourceDetail } from "./resourceDetails/ResourceDetail";
