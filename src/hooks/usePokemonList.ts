@@ -7,7 +7,6 @@ export interface PokemonSummary {
 
 const POKEAPI_BASE_URL = 'https://pokeapi.co/api/v2';
 
-
 const usePokemonList = () => {
   const [resources, setResources] = useState<PokemonSummary[]>([]);
 
