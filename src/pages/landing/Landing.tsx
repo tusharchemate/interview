@@ -1,12 +1,8 @@
 import { FC } from 'react';
-import {Title} from "@mantine/core";
-import Login from '../Login';
+import Login from '../Login/Login';
 
 const Landing: FC = () => {
-	return <>
-		<Title order={4}> Hello World </Title>
-	</>;
+    return <Login />;
 };
 
-export default Landing
-
+export default Landing;
