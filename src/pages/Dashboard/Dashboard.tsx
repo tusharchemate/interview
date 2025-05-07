@@ -26,7 +26,7 @@ const Dashboard = () => {
                 <>
                     <p>Welcome, {username}!</p>
                     <div className="welcome-message">
-                        <Link to="/resources" className="link">View All Pokémon</Link>
+                        <Link to="/resources" className="link">View All Pokemon</Link>
                     </div>
                 </>
             ) : (
